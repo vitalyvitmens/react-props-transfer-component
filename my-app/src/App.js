@@ -12,8 +12,7 @@ export const App = () => {
 	const user = getUserFromServer()
 	return (
 		<div className={styles.app}>
-			<br />
-			<Label title={'Приложение'} color={'red'} />
+			<Label color={'red'}>Приложение</Label>
 			<div>Разная информация приложения</div>
 			{/* <User
 				name={user.name}
